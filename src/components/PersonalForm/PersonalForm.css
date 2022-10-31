@@ -1,0 +1,60 @@
+.PersonalForm {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    justify-content: center
+}
+
+.Form {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: #e5ebec;
+    padding: 20px 20px;
+    box-shadow: -1px 0px 18px 2px #223d80;
+    border-radius: 7px;
+}
+
+.FormRow {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    padding: 15px 20px;
+    height: auto;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #47a1e5;
+}
+
+input, select {
+    border-style: none;
+    border-bottom: 1px solid #325672;
+    background-color: transparent;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    outline: none;
+    color: #000000;
+    width: 85%;
+    transition: ease-in .2s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input:hover, input:focus, select:hover, select:focus {
+    width: 100%;
+    border-bottom: 1px solid #47a1e5;
+}
+
+h1 {
+    color: #47a1e5;
+    text-align: center;
+    font-size: 28px;
+}

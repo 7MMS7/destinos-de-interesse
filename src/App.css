@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #00caf2;
+}
+
+.ComponentsRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+button {
+  margin-top: 20px;
+  background-color: unset;
+  border-style: none;
+  color: #47a1e5;
+  background-color: #e5ebec;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: -1px 0px 10px 3px #223d80;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+}
